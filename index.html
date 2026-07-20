@@ -23,6 +23,10 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
             
             <div class="hamburger">
                 <span class="bar"></span>
@@ -109,7 +113,7 @@
         <div class="container">
             <h2 class="section-title">Our Projects</h2>
             <div class="projects-container">
-                <div class="projects-scroll">
+                <div class="projects-scroll" id="projects-scroll">
                     <!-- Project 1 -->
                     <div class="project-card">
                         <div class="project-image">
@@ -173,6 +177,12 @@
         </div>
     </section>
 
+    <!-- Lightbox for Project Images -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img src="" alt="" id="lightbox-img">
+    </div>
+
     <!-- Footer -->
     <footer id="contact">
         <div class="container">
@@ -210,9 +220,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
